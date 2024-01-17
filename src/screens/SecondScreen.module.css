@@ -1,0 +1,849 @@
+.title{
+    font-size: 60px;
+   
+    width:65%;
+ color:white;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto 5%;
+
+    font-family: "Rubik";
+}
+.rotate {
+    animation: rotateAnimation 2s ease-in-out forwards;
+  }
+  
+  @keyframes rotateAnimation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.name{
+    font-size: 50px;
+  color:#ffd000;
+    justify-content: center;
+    text-align: right;
+    font-family: "Rubik";
+}
+.li{
+    font-size: 22px;
+    justify-content: center;
+    text-align: right;
+    direction: rtl;
+    margin-top:3%;
+    font-family: "HeeboR";
+    color:white;
+}
+.explain{
+    font-size: 22px;
+   
+  
+ 
+    justify-content: center;
+    text-align: right;
+
+    font-family: "HeeboR";
+}
+.wrap{
+
+    width:100%;
+    background: #000026;
+    height:auto;
+}
+.svg{
+    margin-top: -20px;
+}
+
+/* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+
+.wraper{
+
+display: flex;
+flex-direction: row;
+width:65%;
+margin:0 auto;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.row{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.text{
+height:100%;
+margin:auto 0;
+align-items: center;
+}
+
+.image{
+   
+    height: 350px;
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.image-filled-svg {
+    background-image: inherit; /* Inherit the background from the body */
+    background-clip: content-box; /* Restrict the background to the SVG content area */
+  }
+  @media only screen and (max-width: 350px) {
+    .title{
+        font-size: 35px;
+       
+        width:100%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 35px;
+    width:100%;
+    margin:5% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:20px;
+      
+        text-align: center;
+        direction: rtl;
+        width:80%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 14px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    height:100%;
+    margin:0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 200px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:80%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }
+  @media only screen and (min-width: 350px) and (max-width: 450px) {
+    .title{
+        font-size: 40px;
+       
+        width:80%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 40px;
+    width:100%;
+    margin:3% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:22px;
+      
+        text-align: center;
+        direction: rtl;
+        width:80%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 14px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    height:100%;
+    margin:0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 200px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }
+  @media only screen and (min-width: 450px) and (max-width: 550px) {
+    .title{
+        font-size: 45px;
+       
+        width:100%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 40px;
+    width:100%;
+    margin:3% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:24px;
+      
+        text-align: center;
+        direction: rtl;
+        width:100%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 14px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    height:100%;
+    margin:0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 250px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }
+  @media only screen and (min-width: 550px) and (max-width: 650px) {
+    .title{
+        font-size: 50px;
+       
+        width:100%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 40px;
+    width:100%;
+    margin:3% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:24px;
+      
+        text-align: center;
+        direction: rtl;
+        width:100%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 14px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    height:100%;
+    margin:0 auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 250px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }
+  @media only screen and (min-width: 650px) and (max-width: 750px) {
+    .title{
+        font-size: 50px;
+       
+        width:100%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 40px;
+    width:100%;
+    margin:3% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:20px;
+      
+        text-align: center;
+        direction: rtl;
+        width:100%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 14px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    height:100%;
+    margin:3% auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 250px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }
+  @media only screen and (min-width: 750px) and (max-width: 850px) {
+    .title{
+        font-size: 50px;
+       
+        width:100%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 40px;
+    width:100%;
+    margin:3% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:20px;
+      
+        text-align: center;
+        direction: rtl;
+        width:100%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 16px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    height:100%;
+    margin:3% auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 250px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }
+  @media only screen and (min-width: 850px) and (max-width: 1050px) {
+    .title{
+        font-size: 55px;
+       
+        width:100%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 45px;
+    width:100%;
+    margin:3% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:22px;
+      
+        text-align: center;
+        direction: rtl;
+        width:100%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 16px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    height:100%;
+    margin:3% auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 350px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }
+  @media only screen and (min-width: 1050px) and (max-width: 1250px) {
+    .title{
+        font-size:60px;
+       
+        width:100%;
+     
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+    .name{
+        font-size: 50px;
+    width:100%;
+    margin:3% auto;
+        justify-content: center;
+        text-align: center;
+        font-family: "Rubik";
+    }
+    .li{
+        font-size:25px;
+      
+        text-align: center;
+        direction: rtl;
+        width:100%; 
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        margin:5% auto;
+        font-family: "HeeboR";
+    }
+    .explain{
+        font-size: 16px;
+       
+      
+     
+        justify-content: center;
+        text-align: right;
+    
+        font-family: "HeeboR";
+    }
+    .wrap{
+    
+        width:100%;
+        background: #000026;
+        height:auto;
+       
+    
+    }
+    /* <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 1440 320"><path fill="#171717" fill-opacity="1" d="M0,256L120,218.7C240,181,480,107,720,96C960,85,1200,139,1320,165.3L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> */
+    
+    .wraper{
+    
+    display: flex;
+    flex-direction: row;
+    width:95%;
+    height:100%;
+    margin:3% auto;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    }
+    .row{
+       
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .text{
+    height:100%;
+  display: flex;
+align-items: flex-end;
+  flex-direction: column;
+    width:100%;
+
+    }
+    .image{
+       
+        height: 350px;
+        object-fit: contain;
+        display: flex;
+        margin:0 auto;
+        width:100%;
+        justify-content: center;
+        align-items: center;
+       
+    }
+
+    .image-filled-svg {
+        background-image: inherit; /* Inherit the background from the body */
+        background-clip: content-box; /* Restrict the background to the SVG content area */
+      }
+  }

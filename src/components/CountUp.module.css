@@ -1,0 +1,95 @@
+.font{
+    font-family: "Rubik";
+    font-size: 4rem;
+    display: flex;
+    color:white;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    text-align: center; 
+}
+.row{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly; 
+ margin: 10% auto;
+}
+.explain{
+    font-family: "RubikR";
+    font-size: 1.5rem;
+    width:100%;
+    color:white;
+}
+@media only screen and (max-width: 350px){
+    .font{
+        font-family: "Rubik";
+        font-size: 2.5rem;
+        display: flex;
+        color:white;
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        justify-content: center; /* Center content vertically */
+        text-align: center; 
+    }
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly; 
+     margin: 10% auto;
+    }
+    .explain{
+        font-family: "RubikR";
+        font-size: 1rem;
+        width:100%;
+        color:white;
+    }
+}
+
+@media only screen and (max-width: 350px) and (max-width: 550px){
+    .font{
+        font-family: "Rubik";
+        font-size:2.7rem;
+        display: flex;
+        color:white;
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        justify-content: center; /* Center content vertically */
+        text-align: center; 
+    }
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly; 
+     margin: 10% auto;
+    }
+    .explain{
+        font-family: "RubikR";
+        font-size: 1rem;
+        width:100%;
+        color:white;
+    }
+}
+@media only screen and (max-width: 550px) and (max-width: 850px){
+    .font{
+        font-family: "Rubik";
+        font-size:3rem;
+        display: flex;
+        color:white;
+        flex-direction: column;
+        align-items: center; /* Center content horizontally */
+        justify-content: center; /* Center content vertically */
+        text-align: center; 
+    }
+    .row{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly; 
+     margin: 10% auto;
+    }
+    .explain{
+        font-family: "RubikR";
+        font-size: 1.2rem;
+        width:100%;
+        color:white;
+    }
+}

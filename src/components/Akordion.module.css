@@ -1,0 +1,115 @@
+.title{
+    font-size: 60px;
+   
+    width:65%;
+ color:black;
+    justify-content: center;
+    text-align: center;
+    margin:0 auto 5%;
+    padding-top:5%;
+    font-family: "Rubik";
+}
+
+.akordion{
+    width: 50%;
+     margin:0 auto;
+     padding-bottom: 3%;
+}
+@media only screen and (max-width: 350px) {
+
+    .title{
+        font-size: 30px;
+       
+        width:100%;
+     color:black;
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+}
+@media only screen and (min-width: 350px) and (max-width: 450px) {
+
+    .title{
+        font-size: 40px;
+       
+        width:100%;
+     color:rgb(0, 0, 0);
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+}
+@media only screen and (min-width: 450px) and (max-width: 550px) {
+
+    .title{
+        font-size: 45px;
+       
+        width:100%;
+     color:black;
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+}
+@media only screen and (min-width: 550px) and (max-width: 650px) {
+
+    .title{
+        font-size: 50px;
+       
+        width:100%;
+     color:black;
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+}
+@media only screen and (min-width: 650px) and (max-width: 750px) {
+
+    .title{
+        font-size: 55px;
+       
+        width:100%;
+     color:black;
+        justify-content: center;
+        text-align: center;
+        margin:0 auto 5%;
+        padding-top:5%;
+        font-family: "Rubik";
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+
+    .akordion{
+        width: 85%;
+         margin: 5% auto;
+    }
+
+
+}
+@media only screen and (min-width: 750px) and (max-width: 1050px) {
+
+    .akordion{
+        width: 70%;
+         margin: 5% auto;
+    }
+
+}
+@media only screen and (min-width: 1050px) and (max-width: 1250px) {
+
+    .akordion{
+        width: 65%;
+         margin: 4% auto;
+    }
+
+}
+

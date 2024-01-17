@@ -1,0 +1,13 @@
+.wrap{
+    margin: 0;
+
+background: url("../images/goldBackground2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+height:auto;
+position: relative;
+}
+.svg{
+    transform: translateY(10px);
+
+}
