@@ -42,14 +42,14 @@ import ScrollReveal from "scrollreveal"
         return <><div className={styles.background} id="קצת עלי">
             <div className={styles.row}>
             <div className={styles.box1} id="center4">
-        <div className={styles.title1}>ליווי פיננסי אישי</div>
+        <div className={styles.title1}>ליווי לכל מטרה</div>
         <div className={styles.row}>
         <div className={styles.icons}>
             <Player ref={playerRef1} size="100%" onComplete={() => playerRef1.current?.playFromBeginning()}
             icon={personal}
           /></div>
         </div>
-        <div className={styles.sentence1}>תקבל סדרת פגישות לאורך 4 חודשים שבהן נבין מי אתה ,את המטרות שלך,כמה אתה שווה כרגע וניהול מזומנים </div>
+        <div className={styles.sentence1}>רכב, בית או חופשה, לא משנה מה המטרה שלכם - נגיע אליה</div>
         <div className={styles.center}><Button darkMode={true} text="לתיאום פגישת ייעוץ"/></div>
         </div>
         <div className={styles.box1} id="center4">
@@ -62,7 +62,7 @@ import ScrollReveal from "scrollreveal"
        <div className={styles.center}><Button darkMode={true} text="לתיאום פגישת ייעוץ"/></div>
         </div>
         <div className={styles.box1} id="center4" >
-        <div className={styles.title1} >מתחייב לתוצאות</div>
+        <div className={styles.title1} >ביטחון כלכלי</div>
         <div className={styles.row}>
             <div className={styles.icons}>
                 <Player 
@@ -72,7 +72,7 @@ import ScrollReveal from "scrollreveal"
             icon={wallet}
           /></div>
         </div>
-        <div className={styles.sentence1}>אדאג שנגיע למטרות שהצבנו , במידה ולא נגיע תקבל פגישות נוספות על חשבוני</div>
+        <div className={styles.sentence1}>כיסוי חובות וסגירת המינוס אף פעם לא היו קלים יותר איתי </div>
         <div className={styles.center}><Button  darkMode={true} background={false} text="לתיאום פגישת ייעוץ"/></div>
         </div>
     

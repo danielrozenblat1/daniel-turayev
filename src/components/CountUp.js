@@ -10,15 +10,20 @@ const CountingUp = () => {
 
   return (
     <div ref={ref} className={styles.row}>
+ 
       <div className={styles.font}>
-        {inView && <CountUp end={4} duration={5} />}
-        <div className={styles.explain}>שנים בעסק</div>
+        {inView && <CountUp end={217892} duration={2.5} />}
+        <div className={styles.explain}>ש''ח שהלקוחות שלי<br/> סגרו איתו את המינוס</div>
+      </div>
+      
+      <div className={styles.font}>
+        {inView && <CountUp end={152977} duration={2.5} />}
+        <div className={styles.explain}> ש״ח שחסכתי ללקוחות שלי <br/>מעמלות וריביות שהתלוו לחובות</div>
       </div>
       <div className={styles.font}>
-        {inView && <CountUp end={20} duration={2.5} />}
-        <div className={styles.explain}>שברו את הלופ</div>
+        {inView && <CountUp end={14} duration={5} />}
+        <div className={styles.explain}>משפחות <br/>שסגרו את המינוס</div>
       </div>
-
     </div>
   );
 };

@@ -28,7 +28,7 @@ const NavBar=()=>{
     {window.innerWidth>850&&<img className={styles.logo} src={logo}/>}
     <div className={styles.row}>
     <ScrollLink to="צור קשר" smooth={true} duration={1500}><div className={styles.navLink}>צור קשר</div></ScrollLink>
-    <ScrollLink to="תלמידים ממליצים" smooth={true} duration={1500}><div className={styles.navLink}>לקוחות ממליצים</div></ScrollLink>
+    <ScrollLink to="לקוחות ממליצים" smooth={true} duration={1500}><div className={styles.navLink}>לקוחות ממליצים</div></ScrollLink>
     <ScrollLink to="תהליך העבודה" smooth={true} duration={1500}><div className={styles.navLink}>תהליך העבודה</div></ScrollLink>
     </div>
     </div>

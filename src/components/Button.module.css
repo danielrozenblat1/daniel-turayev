@@ -15,7 +15,7 @@
         border-radius: 15px;
         font-family: 'RubikR';
         font-size: 18px;
-        
+        text-decoration: none;
         cursor: pointer;
         text-align: center;
         }
@@ -36,6 +36,7 @@
           background: none;
           border-radius: 15px;
           font-family: 'RubikR';
+          text-decoration: none;
           font-size: 18px;
           color:white;
           cursor: pointer;
@@ -49,6 +50,7 @@
          border-radius: 15px;
          color: rgb(255, 255, 255);
          cursor: pointer;
+         
          transform: scale(1.1);
          transition: all ease-out 1s;
          }
@@ -104,8 +106,9 @@
                 width:100%;
                  border: 2px solid #000040;
                  background: none;
-                 border-radius: 10px;
+                 border-radius: 5px;
                  font-family: 'RubikR';
+                 text-decoration: none;
                  font-size: 16px;      
                  cursor: pointer;
                  text-align: center;
@@ -140,10 +143,10 @@
                
                  border: 2px solid #000040;
                  background: none;
-                 border-radius: 10px;
+                 border-radius: 5px;
                  font-family: 'RubikR';
                  font-size: 18px;
-                 
+                 text-decoration: none;
                  cursor: pointer;
                  text-align: center;
                  }
@@ -177,10 +180,10 @@
               
                 border: 2px solid #000040;
                 background: none;
-                border-radius: 10px;
+                border-radius: 5px;
                 font-family: 'RubikR';
                 font-size: 18px;
-                
+                text-decoration: none;
                 cursor: pointer;
                 text-align: center;
                 }
