@@ -12,6 +12,7 @@ return <>
 <SecondScreen/>
 
 <ThirdPage/>
+
 <DetailsPage/>
 </>
 }

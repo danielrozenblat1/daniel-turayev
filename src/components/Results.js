@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
  import result from "../images/דניאל תוצאות 1.png"
 import result1 from "../images/דניאל תוצאות 2.png"
 import result2 from "../images/דניאל תוצאות 3.png"
-import result3 from "../images/דניאל תוצאות 1.png"
+import result3 from "../images/דניאל תוצאות 4.png"
 import result4 from "../images/דניאל תוצאות 1.png"
 
 
@@ -112,7 +112,7 @@ return <>
           {content.map((item, index) => (
             <div key={index}>
               {item.type === 'image' && (
-                <img src={item.src} className={styles.image1} alt={`Image ${index + 1}`} />
+                <img src={item.src} className={styles.image1} alt={`דניאל טורייב לקוח ממליץ מספר ${index + 1}`} />
               )}
               {/* {item.type === 'video' && (
                 <video

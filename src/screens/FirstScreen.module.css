@@ -11,7 +11,7 @@
   
 
 
- bottom: 10;
+ bottom: 5;
   }
   
 
@@ -112,7 +112,7 @@ margin:1% auto;
         padding-top:5%;
       }
       .svg{
- bottom: 0;
+ bottom: -1%;
       }
       .row{
         display: flex;
@@ -223,7 +223,7 @@ margin:1% auto;
      
       }
       .svg{
-        bottom: 0;
+        bottom: -1%;
       }
     
       .row{
@@ -333,7 +333,7 @@ margin:1% auto;
         padding-bottom:20%;
       }
       .svg{
-        bottom: 0;
+        bottom: -1%;
       }
     
       .row{
@@ -445,7 +445,7 @@ margin:1% auto;
    
       }
       .svg{
-       bottom: 0;
+        bottom: -1%;
       }
     
       .row{
@@ -554,7 +554,7 @@ margin:1% auto;
     
       }
       .svg{
-        bottom: 0;
+        bottom: -1%;
       }
     
       .row{
@@ -664,7 +664,7 @@ margin:1% auto;
    
       }
       .svg{
-        bottom: 0;
+        bottom: -1%;
       }
     
       .row{
@@ -771,7 +771,7 @@ margin:1% auto;
   
       }
       .svg{
-    bottom:0;
+        bottom: -1%;
       }
     
       .row{
@@ -881,7 +881,7 @@ margin:1% auto;
         position: absolute;
       
       transform: translateY(5px);
-         bottom: 0;
+      bottom: -1%;
          left: 0;
         
       }
