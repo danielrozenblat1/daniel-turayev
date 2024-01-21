@@ -67,7 +67,7 @@ const DetailsPage=()=>{
       email:email,
       age:age
      }
-  const response= await fetch('',{
+  const response= await fetch('http://localhost:8000/leads/newLead',{
       method:"POST",
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify(formData)

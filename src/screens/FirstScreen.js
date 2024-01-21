@@ -77,7 +77,7 @@ return <>
 {/* <svg  xmlns="http://www.w3.org/2000/svg" className={styles.svg} viewBox="0 0 1440 320" ><path   fill="#fff" fill-opacity="1" d="M0,256L120,213.3C240,171,480,85,720,74.7C960,64,1200,128,1320,160L1440,192L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg> */}
 </div>}
 
-<svg className={styles.svg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000026" fill-opacity="1" d="M0,160L1440,64L1440,320L0,320Z"></path></svg>
+<svg className={styles.svg} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000026"  d="M0,160L1440,64L1440,320L0,320Z"></path></svg>
 </div>
 
 </>

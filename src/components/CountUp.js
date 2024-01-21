@@ -12,12 +12,12 @@ const CountingUp = () => {
     <div ref={ref} className={styles.row}>
  
       <div className={styles.font}>
-        {inView && <CountUp end={217892} duration={2.5} />}
-        <div className={styles.explain}>ש''ח שהלקוחות שלי<br/> סגרו איתו את המינוס</div>
+        {inView && <CountUp end={217892} duration={6.5} />}
+        <div className={styles.explain}>סכום המינוס שהלקוחות שלי <br/> סגרו בעזרת הליווי הכלכלי</div>
       </div>
       
       <div className={styles.font}>
-        {inView && <CountUp end={152977} duration={2.5} />}
+        {inView && <CountUp end={152977} duration={6.5} />}
         <div className={styles.explain}> ש״ח שחסכתי ללקוחות שלי <br/>מעמלות וריביות שהתלוו לחובות</div>
       </div>
       <div className={styles.font}>

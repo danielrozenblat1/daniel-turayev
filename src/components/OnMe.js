@@ -49,16 +49,16 @@ import ScrollReveal from "scrollreveal"
             icon={personal}
           /></div>
         </div>
-        <div className={styles.sentence1}>רכב, בית או חופשה, לא משנה מה המטרה שלכם - נגיע אליה</div>
+        <div className={styles.sentence1}>רכב,בית או אפילו חתונה, לא משנה מה המטרה שלך, נגיע אליה ! </div>
         <div className={styles.center}><Button darkMode={true} text="לתיאום פגישת ייעוץ"/></div>
         </div>
         <div className={styles.box1} id="center4">
-        <div className={styles.title1} >התנהלות נכונה</div>
+        <div className={styles.title1} >צמיחה פיננסית</div>
         <div className={styles.row}>
             <div className={styles.icons}>
             <Player ref={playerRef2} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()} icon={finance}/></div>
         </div>
-        <div className={styles.sentence1}>אדאג שתתנהל כלכלית נכון גם לאחר הליווי והייעוץ שתקבל כדי שתמשיך ככה גם אחרי</div>
+        <div className={styles.sentence1}>הגדלת ההון בעזרת כלים ושיטות מוכחות</div>
        <div className={styles.center}><Button darkMode={true} text="לתיאום פגישת ייעוץ"/></div>
         </div>
         <div className={styles.box1} id="center4" >
