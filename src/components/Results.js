@@ -8,7 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import result1 from "../images/דניאל תוצאות 2.png"
 import result2 from "../images/דניאל תוצאות 3.png"
 import result3 from "../images/דניאל תוצאות 4.png"
-import result4 from "../images/דניאל תוצאות 1.png"
+import result4 from "../images/דניאל תוצאות 5.png"
 
 
 import { useEffect } from "react";

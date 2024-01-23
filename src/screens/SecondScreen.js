@@ -81,8 +81,8 @@ const SecondScreen=()=>{
    <img className={styles.image} src={logo} alt="דניאל טורייב"/>
     <div className={styles.text}>
     <h1 className={styles.name}>דניאל טורייב</h1>
-    <div className={styles.li}> יועץ ומלווה פיננסית אישית </div>
-    <div className={styles.li}>יועץ לכלכלת המשפחה</div>
+    <div className={styles.li}> יועץ פיננסי </div>
+    <div className={styles.li}>יועץ ומאמן לכלכלת המשפחה</div>
     <div className={styles.li}>יועץ משכנתאות</div>
     <div className={styles.li}>יזם נדלן</div>
   

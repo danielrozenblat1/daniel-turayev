@@ -67,7 +67,7 @@ const DetailsPage=()=>{
       email:email,
       age:age
      }
-  const response= await fetch('http://localhost:8000/leads/newLead',{
+  const response= await fetch('https://daniel-turayev-db9006334486.herokuapp.com/leads/newLead',{
       method:"POST",
       headers:{'Content-Type':'application/json'},
       body:JSON.stringify(formData)
