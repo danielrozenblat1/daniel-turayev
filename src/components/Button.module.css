@@ -1,12 +1,9 @@
 .container{
-
     width: 250px;
     height: 60px;
     display: flex;
     justify-content: center;
     margin:3% auto
-    
-    
     }
     .button{
        width:100%;
@@ -184,6 +181,43 @@
                 border: 2px solid #000040;
                 background: none;
                 border-radius: 5px;
+                font-family: 'RubikR';
+                font-size: 18px;
+                text-decoration: none;
+                cursor: pointer;
+                text-align: center;
+                }
+                .button:hover{
+                
+                border: 2px solid white;
+               background: none;
+                border-radius: 10px;
+                color: rgb(0, 0, 0);
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: all ease-out 1s;
+                }
+   
+       }
+       @media only screen and (min-width: 1050px) and (max-width: 1350px) {
+         .container{
+   
+            width: 25vw;
+            height: 5vw;
+            display: flex;
+            justify-content: center;
+            margin:4% auto
+            
+            
+            }
+            .button{
+             
+                  
+               width:100%;
+               color:black;
+                border: 2px solid #000040;
+                background: none;
+                border-radius: 10px;
                 font-family: 'RubikR';
                 font-size: 18px;
                 text-decoration: none;
