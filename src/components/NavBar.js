@@ -29,7 +29,7 @@ const NavBar=()=>{
     <div className={styles.row}>
     <ScrollLink to="צור קשר" smooth={true} duration={1500}><div className={styles.navLink}>צור קשר</div></ScrollLink>
     <ScrollLink to="לקוחות ממליצים" smooth={true} duration={1500}><div className={styles.navLink}>לקוחות ממליצים</div></ScrollLink>
-    <ScrollLink to="תהליך העבודה" smooth={true} duration={1500}><div className={styles.navLink}>תהליך העבודה</div></ScrollLink>
+    <ScrollLink to="קצת עלי" smooth={true} duration={1500}><div className={styles.navLink}>קצת עלי</div></ScrollLink>
     </div>
     </div>
 

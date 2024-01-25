@@ -9,7 +9,9 @@
     padding-top:5%;
     font-family: "Rubik";
 }
-
+.svg{
+    transform: translateY(-10px);
+}
 .akordion{
     width: 50%;
      margin:0 auto;
